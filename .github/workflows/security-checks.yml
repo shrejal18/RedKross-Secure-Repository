@@ -36,3 +36,6 @@ jobs:
 
       - name: Scan for exposed secrets
         run: python scripts/secret_scan.py
+
+      - name: Validate SBOM
+        run: python scripts/validate_sbom.py
