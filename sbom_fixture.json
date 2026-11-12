@@ -1,0 +1,30 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:00000000-0000-4000-8000-000000000001",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-19T12:00:00Z",
+    "tools": [
+      {
+        "name": "RedKross training fixture",
+        "version": "1.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "example-safe-package",
+      "version": "1.0.0",
+      "purl": "pkg:npm/example-safe-package@1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "example-test-runner",
+      "version": "1.0.0",
+      "purl": "pkg:npm/example-test-runner@1.0.0"
+    }
+  ],
+  "note": "Training-only sample. These component names are fictional; this is not a real vulnerability statement."
+}

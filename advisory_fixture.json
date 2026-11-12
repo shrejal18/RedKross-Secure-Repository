@@ -1,0 +1,23 @@
+{
+  "notice": "Synthetic mock advisories for parser and triage testing only. Not real CVEs.",
+  "advisories": [
+    {
+      "id": "RK-TRAIN-001",
+      "package": "example-safe-package",
+      "affected_versions": "<1.0.2",
+      "severity": "high",
+      "cvss": 8.1,
+      "summary": "Synthetic fixture: unvalidated redirect in mock package.",
+      "fixed_version": "1.0.2"
+    },
+    {
+      "id": "RK-TRAIN-002",
+      "package": "example-test-runner",
+      "affected_versions": "<1.1.0",
+      "severity": "low",
+      "cvss": 2.4,
+      "summary": "Synthetic fixture: verbose diagnostic output in mock package.",
+      "fixed_version": "1.1.0"
+    }
+  ]
+}

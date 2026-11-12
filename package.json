@@ -1,0 +1,15 @@
+{
+  "name": "northstar-training-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Synthetic dependency manifest for security triage exercises",
+  "scripts": {
+    "test": "echo Replace this with your own test command"
+  },
+  "dependencies": {
+    "example-safe-package": "1.0.0"
+  },
+  "devDependencies": {
+    "example-test-runner": "1.0.0"
+  }
+}
